@@ -7,7 +7,7 @@ public class Algorithms {
     // TODO: Вынести сюда быструю сортировку
     // Пока можно считать CustomList обычным LinkedList
     //public static void quickSort(CustomList<ThreeMemberClass> list) {}
-public static void quickSort(LinkedList<Bus>array, int low, int high) {
+ public static void quickSort(LinkedList<Bus>array, int low, int high) {
         //завершить,если массив пуст или уже нечего делить
         if (array.size() == 0 || low >= high) return;
 
